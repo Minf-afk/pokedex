@@ -1,0 +1,9 @@
+Cliente Servidor - HTTP - S = Security
+
+
+//1 cliente - Faz solicitação para o servidor 
+//servidor vai receber a informação e devolver para o 1 cliente**
+
+
+//2 cliente - Faz solicitação para o servidor 
+//servidor vai receber a informação e devolver para o 1 cliente**
