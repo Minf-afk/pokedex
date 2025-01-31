@@ -12,6 +12,49 @@ body {
   height: 100vh;
   padding: 1rem;
   background-color: #fff;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#searchbox {
+  justify-items: auto;
+  width: calc(100% - 60px); /* Ajuste para acomodar o botão */
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.8rem;
+}
+
+#searchButton {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #6c79db;
+  color: white;
+  cursor: pointer;
+}
+
+.pokedex {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-left: 1rem;
+  border-radius: 0.8rem; /* Espaçamento entre o h1 e a imagem */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 @media screen and (min-width: 992px) {
